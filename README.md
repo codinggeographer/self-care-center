@@ -1,51 +1,47 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
-# Self-Care Center 
+# Self-Care Center
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+The Self-Care Center is a web application that allows users to receive affirmations and mantras to boost their self-worth and mindfulness. The app randomly selects messages from a list based on the user's chosen message type (affirmation or mantra) when they click the "Receive Message" button. The application also features a Harry Potter theme for added charm and engagement.
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
+To get the app up and running, follow these steps:
+
+1. Fork this project to your own Github account.
+2. Clone the repository to your local machine [git clone git@github.com:codinggeographer/self-care-center.git].
+3. Navigate to the project directory using the terminal or command prompt.
+4. Run [open index.html] command in your terminal to open the index.html file in your web browser.
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+![Alt text](<Screenshot 2023-07-21 at 3.16.46 PM.png>)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+The Self-Care Center was developed as part of a solo challenge for Module 1 curriculum at the Turing School of Software Engineering & Design. The goal was to gain experience building a web application using HTML, CSS, and JavaScript, while also demonstrating an understanding of event handling and user interface design. The project incorporated a Harry Potter theme to add a touch of creativity and personalization.
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
+- [codinggeographer](https://github.com/codinggeographer)
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
+The main learning goals for this project were to:
+
+1. Utilize HTML, CSS, and JavaScript to build a functional web application.
+2. Implement event listeners and handle user interactions.
+3. Create a responsive and visually appealing user interface.
+4. Personalize the application with a custom Harry Potter theme.
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+[//]: <>
+Wins:
+1. Successfully implemented the MVP (Minimum Viable Product) with random message generation based on user selection.
+2. Created a visually appealing user interface with a Harry Potter theme to enhance user engagement.
+3. Applied intermediate CSS techniques to adapt the layout and spacing for various screen sizes.
+
+Challenges:
+
+1. Implementing the loading animation with CSS Keyframes and JavaScript required some research and experimentation.
+2. Adjusting the text fading effect to deliver messages in a calming way required fine-tuning.
